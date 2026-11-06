@@ -217,7 +217,7 @@ export async function DELETE(request, { params }) {
           ? error.message
           : "Internal Server Error",
       },
-      { status: 500 }
+      { status: 500 } //
     );
   }
 }
